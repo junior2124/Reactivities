@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Persistence;
+using Domain;
 
 namespace DatingApp.API.Controllers
 {
@@ -10,18 +12,27 @@ namespace DatingApp.API.Controllers
   [ApiController]
   public class ValuesController : ControllerBase
   {
+
+    private readonly DataContext _context;
+    public ValuesController(DataContext context)
+    {
+      _context = context;
+    }
+
     // GET api/values
     [HttpGet]
-    public ActionResult<IEnumerable<string>> Get()
+    public ActionResult<IEnumerable<Value>> Get()
     {
-      return new string[] { "value1", "value2" };
+      var values = _context.MyProperty.ToList();
+      return Ok(values);
     }
 
     // GET api/values/5
     [HttpGet("{id}")]
-    public ActionResult<string> Get(int id)
+    public async Task<ActionResult<Value>> Get(int id)
     {
-      return "value";
+      var value = await _context.MyProperty.FindAsync(id);
+      return Ok(value);
     }
 
     // POST api/values
