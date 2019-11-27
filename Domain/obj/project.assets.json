@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\Domain\\Domain.csproj",
+      "projectUniqueName": "c:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\Domain\\Domain.csproj",
+      "projectPath": "c:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\escobede\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\Domain\\obj\\",
+      "outputPath": "c:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

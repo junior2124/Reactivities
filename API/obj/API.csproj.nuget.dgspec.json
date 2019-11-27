@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\API\\API.csproj": {}
+    "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\API\\API.csproj": {
+    "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\API\\API.csproj",
+        "projectPath": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\api\\API.csproj",
         "packagesPath": "C:\\Users\\escobede\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\API\\obj\\",
+        "outputPath": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
