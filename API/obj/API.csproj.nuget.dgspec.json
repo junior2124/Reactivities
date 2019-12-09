@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\api\\API.csproj": {}
+    "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\api\\API.csproj": {
+    "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\api\\API.csproj",
+        "projectPath": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\escobede\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\api\\obj\\",
+        "outputPath": "C:\\Users\\escobede\\Documents\\Development\\REACT\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -115,6 +115,12 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
