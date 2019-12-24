@@ -10,7 +10,7 @@ const sleep = (ms: number) => (response: AxiosResponse) =>
     setTimeout(() => resolve(response), ms)
   );
 
-const request = {
+const requests = {
   //get: (url: string) => axios.get(url).then(responseBody),
   get: (url: string) =>
     axios
@@ -35,12 +35,12 @@ const request = {
 };
 
 const Activities = {
-  list: (): Promise<IActivity[]> => request.get("/activities"),
-  details: (id: string) => request.get(`/activities/${id}`),
-  create: (activity: IActivity) => request.post("/activities", activity),
+  list: (): Promise<IActivity[]> => requests.get("/activities"),
+  details: (id: string) => requests.get(`/activities/${id}`),
+  create: (activity: IActivity) => requests.post("/activities", activity),
   update: (activity: IActivity) =>
-    request.put(`/activities/${activity.id}`, activity),
-  delete: (id: string) => request.del(`/activities/${id}`)
+    requests.put(`/activities/${activity.id}`, activity),
+  delete: (id: string) => requests.del(`/activities/${id}`)
 };
 
 export default {
